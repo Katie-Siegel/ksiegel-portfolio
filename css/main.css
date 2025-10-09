@@ -88,6 +88,7 @@ textarea {
 
 html {
 	font-size: 1.13rem;
+	background-color: #162a41;
 }
 
 body {
@@ -115,12 +116,14 @@ h1 {
 	font-size: 2.25rem;
 	line-height: 2.25rem;
 	font-weight: 500;
+	margin: 1.5rem 0;
 }
 
 h2 {
 	font-family: 'Poppins', sans-serif;
 	font-size: 1.5rem;
 	font-weight: 700;
+	margin: 0;
 }
 
 h3,
@@ -128,31 +131,36 @@ h4 {
 	font-family: 'Poppins', sans-serif;
 	font-size: 1.25rem;
 	font-weight: 300;
+	margin: 0;
 }
 
 p {
 	font-size: 0.875em;
-	line-height: 1.125rem;
+	margin: 0.5rem;
+}
+
+span {
+	color: #c65098;
 }
 
 img {
-	width: 80%;
+	width: 100%;
 }
 
 .content-wrapper {
 	display: flex;
 	justify-content: center;
 	flex-flow: row wrap;
-	width: 90%;
-	margin: 1.67rem 0;
+	width: 100%;
+	margin: 1.7rem 0;
 }
 
-/*-------------------- Base Header and Footer Styles --------------------*/
+/*-------------------- Mobile Styles - Base Header and Footer Styles --------------------*/
 
 header {
 	display: flex;
 	justify-content: center;
-	margin: .83rem 0;
+	margin: 0.83rem 0;
 }
 
 header .content-wrapper {
@@ -164,17 +172,15 @@ header .content-wrapper {
 }
 
 .header-divider {
-	border-bottom: 1px solid #3a3a3a;
+	border-bottom: 1px solid #67c5de;
 	width: 100%;
 	margin: 10px 0 20px 0;
 }
 
-header figure {
-	width: 60%;
-}
-
 header nav {
 	width: 60%;
+	justify-content: center;
+	align-content: center;
 }
 
 header nav ul {
@@ -189,57 +195,65 @@ footer {
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
-	background: #202322;
 }
 
 footer .content-wrapper {
 	width: 60%;
 }
 
-footer h4 {
-	margin: 20px 0;
-}
-
 footer p {
 	margin: 0;
-}
-
-footer .contact {
-	margin-bottom: 50px;
-}
-
-footer .social-icons {
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-}
-
-footer .social-icons p {
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	background-color: #527158;
-	border-radius: 50%;
-	width: 40px;
-	height: 40px;
-}
-
-footer i {
-	font-size: 1.313em;
 }
 
 footer .copyright {
 	margin: 20px 0px;
 }
 
-/*------------------- Mobile Styles - Homepage -------------------*/
-
-/* Hero Area */
+/*------------------- Mobile Styles - Homepage - Hero Section -------------------*/
 
 main .hero-area {
 	display: flex;
 	justify-content: center;
-	height: 7.1rem;
+	text-align: center;
+}
+
+/*------------------- Mobile Styles - Homepage - Projects Section -------------------*/
+
+.portfolio-item {
+	width: 90%;
+	margin: 1.67rem 0;
+}
+
+/*------------------- Mobile Styles - Homepage - Skills Section -------------------*/
+
+.skills h2 {
+	text-align: center;
+	justify-content: center;
+}
+
+.skills i {
+	font-size: 3rem;
+	padding: 1rem;
+}
+/*------------------- Mobile Styles - Homepage - About Me Section -------------------*/
+/*------------------- Mobile Styles - Homepage - Contact Section -------------------*/
+.contact {
+	margin-bottom: 50px;
+}
+
+.contact form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	border-radius: 50%;
+	width: 90%;
+}
+
+.contact i {
+	font-size: 5rem;
+	justify-content: space-between;
+	padding: 2rem;
 }
 
 /* ==========================================================================
