@@ -112,20 +112,22 @@ a {
 
 h1 {
 	font-family: 'Poppins', sans-serif;
-	font-size: 2.25em;
-	line-height: 2.688rem;
+	font-size: 2.25rem;
+	line-height: 2.25rem;
 	font-weight: 500;
 }
 
 h2 {
 	font-family: 'Poppins', sans-serif;
-	font-size: 1.875em;
-	font-weight: 500;
+	font-size: 1.5rem;
+	font-weight: 700;
 }
 
 h3,
 h4 {
 	font-family: 'Poppins', sans-serif;
+	font-size: 1.25rem;
+	font-weight: 300;
 }
 
 p {
@@ -134,20 +136,15 @@ p {
 }
 
 img {
-	width: 100%;
-}
-
-figure {
-	margin: 0;
-}
-
-address {
-	font-style: normal;
+	width: 80%;
 }
 
 .content-wrapper {
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
 	width: 90%;
-	margin: 50px 0;
+	margin: 1.67rem 0;
 }
 
 /*-------------------- Base Header and Footer Styles --------------------*/
@@ -155,14 +152,14 @@ address {
 header {
 	display: flex;
 	justify-content: center;
-	padding: 15px 0;
+	margin: .83rem 0;
 }
 
 header .content-wrapper {
 	display: flex;
-	justify-content: left;
+	justify-content: center;
 	align-items: center;
-	flex-flow: row wrap;
+	flex-flow: wrap;
 	margin: 0;
 }
 
@@ -242,7 +239,7 @@ footer .copyright {
 main .hero-area {
 	display: flex;
 	justify-content: center;
-	height: 31.25em;
+	height: 7.1rem;
 }
 
 /* ==========================================================================
