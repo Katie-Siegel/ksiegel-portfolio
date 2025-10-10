@@ -125,7 +125,7 @@ h1 {
 	font-size: 2.25rem;
 	line-height: 2.25rem;
 	font-weight: 500;
-	margin: 1.5rem 0;
+	margin: 1.7rem 0;
 }
 
 h2 {
@@ -146,7 +146,6 @@ h4 {
 
 p {
 	font-size: 0.875em;
-	margin: 0.5rem;
 }
 
 span {
@@ -162,7 +161,7 @@ img {
 	justify-content: center;
 	flex-flow: row wrap;
 	width: 100%;
-	margin: 1.7rem 0;
+	margin: 20px 0;
 }
 
 /*-------------------- Mobile Styles - Base Header and Footer Styles --------------------*/
@@ -178,13 +177,11 @@ header .content-wrapper {
 	justify-content: center;
 	align-items: center;
 	flex-flow: wrap;
-	margin: 0;
 }
 
 .header-divider {
 	border-bottom: 0.05rem solid #67c5de;
 	width: 100%;
-	margin: 0;
 }
 
 header nav {
@@ -229,13 +226,36 @@ main .hero-area {
 
 /*------------------- Mobile Styles - Homepage - Projects Section -------------------*/
 
+.projects {
+	margin: 4.44rem 0 02.22rem 0;
+}
+
 .portfolio-item {
 	width: 90%;
-	margin: 1.67rem 0;
+	margin: 1.11rem 0;
+}
+
+.portfolio-item img {
+	margin: 0 0 1.11rem 0;
+}
+
+.project-description {
+	margin: 40px 0 30px 0;
+}
+
+.project-skills {
+	margin: 0 0 0.5rem 0;
+}
+
+.project-tools {
+	margin: 0;
 }
 
 /*------------------- Mobile Styles - Homepage - Skills Section -------------------*/
 
+.skills {
+	margin: 20px 0 80px 0;
+}
 .skills h2 {
 	width: 100%;
 }
@@ -244,6 +264,7 @@ main .hero-area {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-around;
+	margin: 40px 0;
 }
 .skills i {
 	font-size: 3.1rem;
@@ -253,25 +274,33 @@ main .hero-area {
 
 .skills p {
 	text-align: center;
+	margin: 0;
 }
+
 /*------------------- Mobile Styles - Homepage - About Me Section -------------------*/
+
+.about {
+	margin: 80px 0;
+}
+
 .about h2 {
 	width: 100%;
 }
 .about img {
 	width: 70%;
-	margin: 1.1rem;
+	margin: 2.1rem;
 	border: 0.85rem solid #67c5de;
 	border-radius: 0% 100% 0% 100% / 37% 60% 40% 63%;
 }
 /*------------------- Mobile Styles - Homepage - Contact Section -------------------*/
 .contact {
-	margin-bottom: 50px;
+	margin: 80px 0 60px 0;
 }
 
 .contact h2 {
 	width: 100%;
 	text-align: center;
+	margin-bottom: 60px;
 }
 
 .contact-item {
@@ -300,7 +329,7 @@ main .hero-area {
 .contact h3 {
 	width: 100%;
 	text-align: center;
-	margin: 0.5rem;
+	margin-top: 60px;
 }
 
 .contact i {
