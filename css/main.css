@@ -101,14 +101,23 @@ body {
 ul,
 ol {
 	list-style-type: none;
-	font-size: 1.125em;
+	font-size: 1rem;
 	font-weight: bold;
 	color: #d1be9c;
 }
 
 a {
 	text-decoration: none;
-	color: #e2e3ed;
+	color: #d1be9c;
+}
+
+nav a:hover {
+	border: 0.1rem solid #67c5de;
+	border-radius: 1rem;
+	padding: 0.4rem 1rem;
+	background-color: #67c5de;
+	color: #162a41;
+	font-weight: bold;
 }
 
 h1 {
@@ -124,6 +133,7 @@ h2 {
 	font-size: 1.5rem;
 	font-weight: 700;
 	margin: 0;
+	text-align: center;
 }
 
 h3,
@@ -160,7 +170,7 @@ img {
 header {
 	display: flex;
 	justify-content: center;
-	margin: 0.83rem 0;
+	margin: 0;
 }
 
 header .content-wrapper {
@@ -172,9 +182,9 @@ header .content-wrapper {
 }
 
 .header-divider {
-	border-bottom: 1px solid #67c5de;
+	border-bottom: 0.05rem solid #67c5de;
 	width: 100%;
-	margin: 10px 0 20px 0;
+	margin: 0;
 }
 
 header nav {
@@ -227,33 +237,77 @@ main .hero-area {
 /*------------------- Mobile Styles - Homepage - Skills Section -------------------*/
 
 .skills h2 {
-	text-align: center;
-	justify-content: center;
+	width: 100%;
 }
 
+.skills-icons {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
 .skills i {
-	font-size: 3rem;
-	padding: 1rem;
+	font-size: 3.1rem;
+	padding: 1.1rem;
+	color: #67c5de;
+}
+
+.skills p {
+	text-align: center;
 }
 /*------------------- Mobile Styles - Homepage - About Me Section -------------------*/
+.about h2 {
+	width: 100%;
+}
+.about img {
+	width: 70%;
+	margin: 1.1rem;
+	border: 0.85rem solid #67c5de;
+	border-radius: 0% 100% 0% 100% / 37% 60% 40% 63%;
+}
 /*------------------- Mobile Styles - Homepage - Contact Section -------------------*/
 .contact {
 	margin-bottom: 50px;
 }
 
+.contact h2 {
+	width: 100%;
+	text-align: center;
+}
+
+.contact-item {
+	padding: 0.2rem 0.5rem;
+}
+
 .contact form {
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	align-items: center;
-	flex-wrap: wrap;
+	flex-wrap: row wrap;
+	padding: 0;
 	border-radius: 50%;
-	width: 90%;
+	width: 80%;
+}
+
+.form-item {
+	margin: 0.5rem;
+	padding: 1rem;
+	width: 100%;
+	border: 0.3rem solid #67c5de;
+	border-radius: 0.5rem;
+	color: #162a41;
+}
+
+.contact h3 {
+	width: 100%;
+	text-align: center;
+	margin: 0.5rem;
 }
 
 .contact i {
 	font-size: 5rem;
 	justify-content: space-between;
 	padding: 2rem;
+	color: #67c5de;
 }
 
 /* ==========================================================================

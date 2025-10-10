@@ -225,22 +225,16 @@
 				id="skills-section"
 			>
 				<h2>Skills</h2>
-				<p><i class="fa-brands fa-html5"></i></p>
-				<p>
+				<dev class="skills-icons">
+					<i class="fa-brands fa-html5"></i>
 					<i class="fa-brands fa-css3-alt"></i>
-				</p>
-				<p>
 					<i class="fa-brands fa-square-js"></i>
-				</p>
-				<p><i class="fa-brands fa-react"></i></p>
-				<p>
+					<i class="fa-brands fa-react"></i>
 					<i class="fa-brands fa-git-alt"></i>
-				</p>
-				<p><i class="fa-brands fa-github"></i></p>
-				<p><i class="fa-brands fa-figma"></i></p>
-				<p>
+					<i class="fa-brands fa-github"></i>
+					<i class="fa-brands fa-figma"></i>
 					<i class="fa-brands fa-codepen"></i>
-				</p>
+				</dev>
 				<p>
 					Version Control | Flexbox | Media
 					Queries | Responsive Web Design | APIs |
@@ -301,13 +295,13 @@
 				id="contact-section"
 			>
 				<h2>Let's Connect</h2>
-				<label for="phone"
-					><p>(305)299-1764</p></label
+				<label class="contact-item" for="phone"
+					>(305) 299-1764</label
 				>
 				<a
-					class="email"
+					class="contact-item"
 					href="mailto:katherineannesiegel@gmail.com"
-					><p>KatherineAnneSiegel@gmail.com</p></a
+					>KatherineAnneSiegel@gmail.com</a
 				>
 				<form
 					class="content-wrapper"
@@ -315,6 +309,7 @@
 					method="POST"
 				>
 					<input
+						class="form-item"
 						type="text"
 						name="name"
 						aria-label="write your full name"
@@ -323,6 +318,7 @@
 						required=""
 					/>
 					<input
+						class="form-item"
 						type="text"
 						name="replyto"
 						aria-label="your email address"
@@ -331,13 +327,17 @@
 						required=""
 					/>
 					<textarea
+						class="form-item"
 						name="message"
 						aria-label="your message"
 						id="message"
 						placeholder="Message"
 						required=""
 					></textarea>
-					<button class="btn" type="submit">
+					<button
+						class="form-item btn"
+						type="submit"
+					>
 						SEND
 					</button>
 				</form>
