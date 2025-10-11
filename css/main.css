@@ -218,16 +218,26 @@ footer .copyright {
 
 /*------------------- Mobile Styles - Homepage - Hero Section -------------------*/
 
-main .hero-area {
+.hero-area {
 	display: flex;
 	justify-content: center;
 	text-align: center;
 }
 
+.hero-image::after {
+	background-image: url('../img/hero-image-world.jpg');
+	background-size: cover;
+	/* filter: blur(8px); */
+	background-color: rgba(0, 0, 0, 0);
+	/* background-blend-mode: multiply; */
+	opacity: 0.5;
+	padding: 0 0 0.5rem 0;
+}
+
 /*------------------- Mobile Styles - Homepage - Projects Section -------------------*/
 
 .projects {
-	margin: 4.44rem 0 02.22rem 0;
+	margin: 4.44rem 0 2.22rem 0;
 }
 
 .portfolio-item {
@@ -275,6 +285,7 @@ main .hero-area {
 .skills p {
 	text-align: center;
 	margin: 0;
+	width: 90%;
 }
 
 /*------------------- Mobile Styles - Homepage - About Me Section -------------------*/
@@ -291,6 +302,10 @@ main .hero-area {
 	margin: 2.1rem;
 	border: 0.85rem solid #67c5de;
 	border-radius: 0% 100% 0% 100% / 37% 60% 40% 63%;
+}
+
+.about p {
+	width: 90%;
 }
 /*------------------- Mobile Styles - Homepage - Contact Section -------------------*/
 .contact {
