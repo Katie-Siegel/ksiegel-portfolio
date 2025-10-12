@@ -224,13 +224,11 @@ footer .copyright {
 	text-align: center;
 }
 
-.hero-image::after {
-	background-image: url('../img/hero-image-world.jpg');
+.hero-image {
+	background: url('../img/hero-image-world.jpg')
+		#0000;
 	background-size: cover;
-	/* filter: blur(8px); */
-	background-color: rgba(0, 0, 0, 0);
-	/* background-blend-mode: multiply; */
-	opacity: 0.5;
+	background-position: center;
 	padding: 0 0 0.5rem 0;
 }
 
