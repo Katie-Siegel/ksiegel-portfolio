@@ -93,7 +93,7 @@ html {
 
 body {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 1em;
+	font-size: 1rem;
 	color: #d1be9c;
 	background-color: #162a41;
 }
@@ -179,11 +179,6 @@ header .content-wrapper {
 	flex-flow: wrap;
 }
 
-.header-divider {
-	border-bottom: 0.05rem solid #67c5de;
-	width: 100%;
-}
-
 header nav {
 	width: 60%;
 	justify-content: center;
@@ -195,6 +190,11 @@ header nav ul {
 	justify-content: space-around;
 	width: 100%;
 	padding: 0;
+}
+
+.header-divider {
+	border-bottom: 0.05rem solid #67c5de;
+	width: 100%;
 }
 
 footer {
@@ -436,156 +436,142 @@ footer .copyright {
    ========================================================================== */
 
 @media only screen and (min-width: 768px) {
-  /* Tablet Styles Here */
+	/* Tablet Styles Here */
 
-  /*-------------------- Tablet Styles - General Styles --------------------*/
+	/*-------------------- Tablet Styles - General Styles --------------------*/
 
-  .content-wrapper {
-    max-width: 640px;
-    margin: 100px 0;
-  }
+	html {
+		font-size: 1.5rem;
+	}
 
-  h1 {
-    font-size: 3em;
-    line-height: 3rem;
-  }
+	.content-wrapper {
+		max-width: 100%;
+		margin: 40px 0;
+	}
 
-  h2 {
-    font-size: 2.25em;
-    line-height: 3rem;
-  }
+	h1 {
+		font-size: 3em;
+		padding-bottom: 40px;
+	}
 
-  h3 {
-    font-size: 1.5em;
-    line-height: 1.875rem;
-  }
+	h2 {
+		font-size: 2.25em;
+	}
 
-  /*-------------------- Tablet Styles - Base Header and Footer Styles --------------------*/
+	h3 {
+		font-size: 1.5em;
+	}
 
-  header {
-    display: flex;
-    justify-content: center;
-    padding: 33px 0;
-  }
+	/*-------------------- Tablet Styles - Base Header and Footer Styles --------------------*/
 
-  header .content-wrapper {
-    width: 100%;
-    justify-content: space-between;
-  }
+	header {
+		display: flex;
+		justify-content: center;
+		padding: 0;
+	}
 
-  header figure {
-    width: 30%;
-    margin: 0;
-  }
+	header .content-wrapper {
+		align-items: flex-end;
+	}
 
-  header nav {
-    width: 20%;
-    margin: 0;
-  }
+	header nav {
+		width: 70%;
+		margin: 80px 0;
+	}
 
-  header nav ul {
-    display: flex;
-    justify-content: space-between;
-    margin: 0;
-  }
+	header nav ul {
+		display: flex;
+		justify-content: space-around;
+		margin: 0;
+		padding 0;
+	}
 
-  .header-divider {
-    display: none;
-  }
+	.header-divider {
+		display: none;
+	}
 
-  footer .content-wrapper {
-    width: 60%;
-  }
+	footer .content-wrapper {
+		width: 60%;
+	}
 
-  .footer-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 1.5em;
-  }
+	footer {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 1.5em;
+	}
 
-  footer .contact {
-    margin-bottom: 0px;
-  }
+	footer .copyright {
+		width: 100%;
+		margin: 80px 0;
+	}
 
-  footer p {
-    line-height: 1.125em;
-  }
+	/*------------------- Tablet Styles - Homepage - Hero Section -------------------*/
 
-  footer h4 {
-    padding: 0 0 40px 0;
-    margin: 0;
-  }
+	.hero-area p {
+		width: 70%;
+	}
 
-  footer .social {
-    width: 40%;
-  }
 
-  footer .social-icons p {
-    width: 50px;
-    height: 50px;
-  }
+	.hero-image {
+		width: 100%;
+		max-height: fit-content;
+	}
 
-  footer .copyright {
-    width: 100%;
-  }
+	/*------------------- Mobile Styles - Homepage - Contact Section -------------------*/
 
-  /*------------------- Tablet Styles - Homepage -------------------*/
+	.contact-item {
+		padding: 0.2rem 0.5rem;
+	}
 
-  /* Hero Area */
+}
 
-  main .hero-area {
-    height: 600px;
-  }
-
-  main .hero-area h1 {
-    margin: 0;
-  }
 
 @media only screen and (min-width: 1200px) {
-  /* Desktop Styles Here */
+	/* Desktop Styles Here */
 
-  /*-------------------- Desktop Styles - General Styles --------------------*/
+	/*-------------------- Desktop Styles - General Styles --------------------*/
 
-  .content-wrapper {
-    max-width: 950px;
-  }
+	.content-wrapper {
+		max-width: 950px;
+	}
 
-  h1 {
-    font-size: 3.75em;
-  }
+	h1 {
+		font-size: 3.75em;
+	}
 
-  h2 {
-    font-size: 2.25em;
-  }
+	h2 {
+		font-size: 2.25em;
+	}
 
-  h3,
-  h4 {
-    font-size: 1.875em;
-  }
+	h3,
+	h4 {
+		font-size: 1.875em;
+	}
 
-  p {
-    font-size: 1.125em;
-    line-height: 1.5rem;
-  }
+	p {
+		font-size: 1.125em;
+		line-height: 1.5rem;
+	}
 
-  /*-------------------- Desktop Styles - Base Header and Footer Styles --------------------*/
+	/*-------------------- Desktop Styles - Base Header and Footer Styles --------------------*/
 
-  header {
-    padding: 15px 0;
-  }
+	header {
+		padding: 15px 0;
+	}
 
-  footer h3 {
-    width: 70%;
-  }
+	footer h3 {
+		width: 70%;
+	}
 
-  /*------------------- Desktop Styles - Homepage -------------------*/
+	/*------------------- Desktop Styles - Homepage -------------------*/
 
-  /* Hero Area */
+	/* Hero Area */
 
-  main .hero-area h1 {
-    width: 80%;
-  }
+	main .hero-area h1 {
+		width: 80%;
+	}
+}
 
 /* ==========================================================================
    Print styles.
