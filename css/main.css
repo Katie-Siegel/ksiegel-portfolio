@@ -225,8 +225,8 @@ footer .copyright {
 }
 
 .hero-image {
-	background: url('../img/hero-image-world.jpg')
-		#0000;
+	background: url('../img/hero-image-world-desaturated-dark.jpg')
+		#162a41;
 	background-size: cover;
 	background-position: center;
 	padding: 0 0 0.5rem 0;
@@ -435,16 +435,157 @@ footer .copyright {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-	/* Style adjustments for viewports that meet the condition */
-}
+@media only screen and (min-width: 768px) {
+  /* Tablet Styles Here */
 
-@media print,
-	(-webkit-min-device-pixel-ratio: 1.25),
-	(min-resolution: 1.25dppx),
-	(min-resolution: 120dpi) {
-	/* Style adjustments for high resolution devices */
-}
+  /*-------------------- Tablet Styles - General Styles --------------------*/
+
+  .content-wrapper {
+    max-width: 640px;
+    margin: 100px 0;
+  }
+
+  h1 {
+    font-size: 3em;
+    line-height: 3rem;
+  }
+
+  h2 {
+    font-size: 2.25em;
+    line-height: 3rem;
+  }
+
+  h3 {
+    font-size: 1.5em;
+    line-height: 1.875rem;
+  }
+
+  /*-------------------- Tablet Styles - Base Header and Footer Styles --------------------*/
+
+  header {
+    display: flex;
+    justify-content: center;
+    padding: 33px 0;
+  }
+
+  header .content-wrapper {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  header figure {
+    width: 30%;
+    margin: 0;
+  }
+
+  header nav {
+    width: 20%;
+    margin: 0;
+  }
+
+  header nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+  }
+
+  .header-divider {
+    display: none;
+  }
+
+  footer .content-wrapper {
+    width: 60%;
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5em;
+  }
+
+  footer .contact {
+    margin-bottom: 0px;
+  }
+
+  footer p {
+    line-height: 1.125em;
+  }
+
+  footer h4 {
+    padding: 0 0 40px 0;
+    margin: 0;
+  }
+
+  footer .social {
+    width: 40%;
+  }
+
+  footer .social-icons p {
+    width: 50px;
+    height: 50px;
+  }
+
+  footer .copyright {
+    width: 100%;
+  }
+
+  /*------------------- Tablet Styles - Homepage -------------------*/
+
+  /* Hero Area */
+
+  main .hero-area {
+    height: 600px;
+  }
+
+  main .hero-area h1 {
+    margin: 0;
+  }
+
+@media only screen and (min-width: 1200px) {
+  /* Desktop Styles Here */
+
+  /*-------------------- Desktop Styles - General Styles --------------------*/
+
+  .content-wrapper {
+    max-width: 950px;
+  }
+
+  h1 {
+    font-size: 3.75em;
+  }
+
+  h2 {
+    font-size: 2.25em;
+  }
+
+  h3,
+  h4 {
+    font-size: 1.875em;
+  }
+
+  p {
+    font-size: 1.125em;
+    line-height: 1.5rem;
+  }
+
+  /*-------------------- Desktop Styles - Base Header and Footer Styles --------------------*/
+
+  header {
+    padding: 15px 0;
+  }
+
+  footer h3 {
+    width: 70%;
+  }
+
+  /*------------------- Desktop Styles - Homepage -------------------*/
+
+  /* Hero Area */
+
+  main .hero-area h1 {
+    width: 80%;
+  }
 
 /* ==========================================================================
    Print styles.
