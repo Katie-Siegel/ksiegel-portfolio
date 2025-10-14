@@ -145,7 +145,7 @@ h4 {
 }
 
 p {
-	font-size: 0.875em;
+	font-size: 0.875rem;
 }
 
 span {
@@ -169,7 +169,8 @@ img {
 header {
 	display: flex;
 	justify-content: center;
-	margin: 0;
+	margin-top: 0;
+
 }
 
 header .content-wrapper {
@@ -177,12 +178,15 @@ header .content-wrapper {
 	justify-content: center;
 	align-items: center;
 	flex-flow: wrap;
+	margin: 10px 0 0 0;
 }
 
-header nav {
+nav .content-wrapper{
 	width: 60%;
 	justify-content: center;
 	align-content: center;
+	margin: 0 0 0 0;
+	
 }
 
 header nav ul {
@@ -195,6 +199,7 @@ header nav ul {
 .header-divider {
 	border-bottom: 0.05rem solid #67c5de;
 	width: 100%;
+	margin-bottom: 40px;
 }
 
 footer {
@@ -202,6 +207,7 @@ footer {
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
+	margin-bottom: 60px;
 }
 
 footer .content-wrapper {
@@ -229,22 +235,26 @@ footer .copyright {
 		#162a41;
 	background-size: cover;
 	background-position: center;
-	padding: 0 0 0.5rem 0;
+	padding: 0 0 10px 0;
 }
 
 /*------------------- Mobile Styles - Homepage - Projects Section -------------------*/
 
 .projects {
-	margin: 4.44rem 0 2.22rem 0;
+	margin: 80px 0 20px 0;
+}
+
+.projects h2{
+	margin-bottom: 20px;
 }
 
 .portfolio-item {
 	width: 90%;
-	margin: 1.11rem 0;
+	margin: 0;
 }
 
 .portfolio-item img {
-	margin: 0 0 1.11rem 0;
+	margin: 0 0 20px 0;
 }
 
 .project-description {
@@ -256,23 +266,24 @@ footer .copyright {
 }
 
 .project-tools {
-	margin: 0;
+	margin-bottom: 40px;
 }
 
 /*------------------- Mobile Styles - Homepage - Skills Section -------------------*/
 
 .skills {
-	margin: 20px 0 80px 0;
+	margin: 0px 0 80px 0;
 }
 .skills h2 {
 	width: 100%;
+	margin-bottom: 40px;
 }
 
 .skills-icons {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-around;
-	margin: 40px 0;
+	margin: 0;
 }
 .skills i {
 	font-size: 3.1rem;
@@ -282,7 +293,7 @@ footer .copyright {
 
 .skills p {
 	text-align: center;
-	margin: 0;
+	margin-top: 20px;
 	width: 90%;
 }
 
@@ -297,7 +308,7 @@ footer .copyright {
 }
 .about img {
 	width: 70%;
-	margin: 2.1rem;
+	margin: 40px;
 	border: 0.85rem solid #67c5de;
 	border-radius: 0% 100% 0% 100% / 37% 60% 40% 63%;
 }
@@ -328,6 +339,7 @@ footer .copyright {
 	padding: 0;
 	border-radius: 50%;
 	width: 80%;
+	margin-top: 30px;
 }
 
 .form-item {
@@ -342,13 +354,13 @@ footer .copyright {
 .contact h3 {
 	width: 100%;
 	text-align: center;
-	margin-top: 60px;
+	margin-top: 40px;
 }
 
 .contact i {
 	font-size: 5rem;
 	justify-content: space-between;
-	padding: 2rem;
+	padding: 30px;
 	color: #67c5de;
 }
 
@@ -441,12 +453,12 @@ footer .copyright {
 	/*-------------------- Tablet Styles - General Styles --------------------*/
 
 	html {
-		font-size: 1.5rem;
+		font-size: 2rem;
 	}
 
 	.content-wrapper {
 		max-width: 100%;
-		margin: 40px 0;
+		margin: 80px 0;
 	}
 
 	h1 {
@@ -459,7 +471,11 @@ footer .copyright {
 	}
 
 	h3 {
-		font-size: 1.5em;
+		font-size: 1.4em;
+	}
+
+	p{
+		font-size: 1rem;
 	}
 
 	/*-------------------- Tablet Styles - Base Header and Footer Styles --------------------*/
@@ -518,11 +534,126 @@ footer .copyright {
 		max-height: fit-content;
 	}
 
-	/*------------------- Mobile Styles - Homepage - Contact Section -------------------*/
+	/*------------------- Tablet Styles - Homepage - Projects Section -------------------*/
+
+	.projects {
+	margin: 120px 0 80px 0;
+	}
+
+	.projects h2 {
+	width: 100%;
+	}
+
+	.projects h3 {
+		text-align: center;
+		margin-top: .2rem;
+	}
+
+	.portfolio-item {
+		width: 41%;
+		margin: 1.11rem .75rem;
+	}
+
+	.portfolio-item img {
+		width: 100%;
+		margin: 0 0 0 0;
+	}
+
+	.project-description {
+		margin: 40px 0 0 0;
+		/* height: 18rem; */
+	}
+
+	.project-skills {
+		margin: 40px 0 20px 0;
+	}
+
+	.project-tools {
+		margin: 0 0 40px 0;
+	}
+
+	/*------------------- Tablet Styles - Homepage - Skills Section -------------------*/
+
+	.skills {
+		margin: 20px 0 80px 0;
+	}
+
+	.skills-icons {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-evenly;
+		margin: 40px 0;
+	}
+
+	.skills i {
+		font-size: 4.5rem;
+		padding: 1.5rem;
+		color: #67c5de;
+	}
+
+/*------------------- Table Styles - Homepage - About Me Section -------------------*/
+
+	.about {
+		margin: 120px 0;
+	}
+
+	.about h2 {
+		width: 100%;
+	}
+
+	.about p {
+		width: 80%;
+	}
+
+/*------------------- Tablet Styles - Homepage - Contact Section -------------------*/
+	.contact {
+		margin: 80px 0 60px 0;
+	}
+
+	.contact h2 {
+		width: 100%;
+		text-align: center;
+		margin-bottom: 60px;
+	}
 
 	.contact-item {
+		width: 60%;
 		padding: 0.2rem 0.5rem;
+		text-align: center;
 	}
+
+	.contact form {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		flex-wrap: row wrap;
+		padding: 0;
+		border-radius: 50%;
+		width: 70%;
+	}
+
+	.form-item {
+		margin: 0.5rem;
+		padding: 1rem;
+		width: 100%;
+		border: 0.3rem solid #67c5de;
+		border-radius: 0.5rem;
+		color: #162a41;
+	}
+
+	.contact h3 {
+		width: 100%;
+		text-align: center;
+		margin-top: 60px;
+	}
+
+	.contact i {
+		font-size: 6rem;
+		justify-content: space-evenly;
+		padding: 2rem;
+		color: #67c5de;
+	}
+
 
 }
 
