@@ -515,14 +515,15 @@ footer .copyright {
 		justify-content: center;
 		align-items: center;
 		font-size: 1.5em;
+		margin-bottom: 80px;
 	}
 
 	footer .copyright {
 		width: 100%;
-		margin: 80px 0;
 	}
 
 	/*------------------- Tablet Styles - Homepage - Hero Section -------------------*/
+
 
 	.hero-area p {
 		width: 70%;
@@ -532,6 +533,7 @@ footer .copyright {
 	.hero-image {
 		width: 100%;
 		max-height: fit-content;
+		margin: 0 0 80px 0;
 	}
 
 	/*------------------- Tablet Styles - Homepage - Projects Section -------------------*/
@@ -542,16 +544,17 @@ footer .copyright {
 
 	.projects h2 {
 	width: 100%;
+	margin-bottom: 80px;
 	}
 
 	.projects h3 {
 		text-align: center;
-		margin-top: .2rem;
+		margin: .2rem 0 40px 0;
 	}
 
 	.portfolio-item {
 		width: 41%;
-		margin: 1.11rem .75rem;
+		margin: 0 .75rem;
 	}
 
 	.portfolio-item img {
@@ -569,13 +572,17 @@ footer .copyright {
 	}
 
 	.project-tools {
-		margin: 0 0 40px 0;
+		margin: 0 0 80px 0;
 	}
 
 	/*------------------- Tablet Styles - Homepage - Skills Section -------------------*/
 
 	.skills {
-		margin: 20px 0 80px 0;
+		margin: 0 0 120px 0;
+	}
+
+	.skills h2 {
+		margin: 0;
 	}
 
 	.skills-icons {
@@ -591,6 +598,10 @@ footer .copyright {
 		color: #67c5de;
 	}
 
+	.skills p {
+		margin: 30px 0 0 0;
+	}
+
 /*------------------- Table Styles - Homepage - About Me Section -------------------*/
 
 	.about {
@@ -599,21 +610,23 @@ footer .copyright {
 
 	.about h2 {
 		width: 100%;
+		margin-bottom: 40px;
 	}
 
 	.about p {
 		width: 80%;
+		margin: 40px 0 0 0;
 	}
 
 /*------------------- Tablet Styles - Homepage - Contact Section -------------------*/
 	.contact {
-		margin: 80px 0 60px 0;
+		margin: 120px 0 80px 0;
 	}
 
 	.contact h2 {
 		width: 100%;
 		text-align: center;
-		margin-bottom: 60px;
+		margin-bottom: 80px;
 	}
 
 	.contact-item {
@@ -630,6 +643,7 @@ footer .copyright {
 		padding: 0;
 		border-radius: 50%;
 		width: 70%;
+		margin: 40px;
 	}
 
 	.form-item {
@@ -644,7 +658,6 @@ footer .copyright {
 	.contact h3 {
 		width: 100%;
 		text-align: center;
-		margin-top: 60px;
 	}
 
 	.contact i {
