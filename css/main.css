@@ -676,45 +676,222 @@ footer .copyright {
 
 	/*-------------------- Desktop Styles - General Styles --------------------*/
 
+	html {
+		font-size: 2rem;
+	}
+
 	.content-wrapper {
-		max-width: 950px;
+		max-width: 100%;
+		margin: 80px 0;
 	}
 
 	h1 {
-		font-size: 3.75em;
+		font-size: 3em;
+		padding-bottom: 40px;
 	}
 
 	h2 {
 		font-size: 2.25em;
 	}
 
-	h3,
-	h4 {
-		font-size: 1.875em;
+	h3 {
+		font-size: 1.4em;
 	}
 
-	p {
-		font-size: 1.125em;
-		line-height: 1.5rem;
+	p{
+		font-size: 1rem;
 	}
 
 	/*-------------------- Desktop Styles - Base Header and Footer Styles --------------------*/
 
 	header {
-		padding: 15px 0;
+		display: flex;
+		justify-content: center;
+		padding: 0;
 	}
 
-	footer h3 {
+	header .content-wrapper {
+		align-items: flex-end;
+	}
+
+	header nav {
+		width: 70%;
+		margin: 80px 0;
+	}
+
+	header nav ul {
+		display: flex;
+		justify-content: space-around;
+		margin: 0;
+		padding 0;
+	}
+
+	.header-divider {
+		display: none;
+	}
+
+	footer .content-wrapper {
+		width: 60%;
+	}
+
+	footer {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 1.5em;
+		margin-bottom: 80px;
+	}
+
+	footer .copyright {
+		width: 100%;
+	}
+
+	/*------------------- Desktop Styles - Homepage - Hero Section -------------------*/
+
+
+	.hero-area p {
 		width: 70%;
 	}
 
-	/*------------------- Desktop Styles - Homepage -------------------*/
 
-	/* Hero Area */
-
-	main .hero-area h1 {
-		width: 80%;
+	.hero-image {
+		width: 100%;
+		max-height: fit-content;
+		margin: 0 0 80px 0;
 	}
+
+	/*------------------- Desktop Styles - Homepage - Projects Section -------------------*/
+
+	.projects {
+	margin: 120px 0 80px 0;
+	}
+
+	.projects h2 {
+	width: 100%;
+	margin-bottom: 80px;
+	}
+
+	.projects h3 {
+		text-align: center;
+		margin: .2rem 0 40px 0;
+	}
+
+	.portfolio-item {
+		width: 41%;
+		margin: 0 .75rem;
+	}
+
+	.portfolio-item img {
+		width: 100%;
+		margin: 0 0 0 0;
+	}
+
+	.project-description {
+		margin: 40px 0 0 0;
+		/* height: 18rem; */
+	}
+
+	.project-skills {
+		margin: 40px 0 20px 0;
+	}
+
+	.project-tools {
+		margin: 0 0 80px 0;
+	}
+
+	/*------------------- Desktop Styles - Homepage - Skills Section -------------------*/
+
+	.skills {
+		margin: 0 0 120px 0;
+	}
+
+	.skills h2 {
+		margin: 0;
+	}
+
+	.skills-icons {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-evenly;
+		margin: 40px 0;
+	}
+
+	.skills i {
+		font-size: 4.5rem;
+		padding: 1.5rem;
+		color: #67c5de;
+	}
+
+	.skills p {
+		margin: 30px 0 0 0;
+	}
+
+/*------------------- Desktop Styles - Homepage - About Me Section -------------------*/
+
+	.about {
+		margin: 120px 0;
+	}
+
+	.about h2 {
+		width: 100%;
+		margin-bottom: 40px;
+	}
+
+	.about p {
+		width: 80%;
+		margin: 40px 0 0 0;
+	}
+
+/*------------------- Desktop Styles - Homepage - Contact Section -------------------*/
+	.contact {
+		margin: 120px 0 80px 0;
+	}
+
+	.contact h2 {
+		width: 100%;
+		text-align: center;
+		margin-bottom: 80px;
+	}
+
+	.contact-item {
+		width: 60%;
+		padding: 0.2rem 0.5rem;
+		text-align: center;
+	}
+
+	.contact form {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		flex-wrap: row wrap;
+		padding: 0;
+		border-radius: 50%;
+		width: 70%;
+		margin: 40px;
+	}
+
+	.form-item {
+		margin: 0.5rem;
+		padding: 1rem;
+		width: 100%;
+		border: 0.3rem solid #67c5de;
+		border-radius: 0.5rem;
+		color: #162a41;
+	}
+
+	.contact h3 {
+		width: 100%;
+		text-align: center;
+	}
+
+	.contact i {
+		font-size: 6rem;
+		justify-content: space-evenly;
+		padding: 2rem;
+		color: #67c5de;
+	}
+
+
 }
 
 /* ==========================================================================
