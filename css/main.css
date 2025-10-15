@@ -87,7 +87,7 @@ textarea {
 /*-------------------- Mobile Styles - General Styles --------------------*/
 
 html {
-	font-size: 1.13rem;
+	font-size: 1.125rem;
 	background-color: #162a41;
 }
 
@@ -328,7 +328,7 @@ footer .copyright {
 }
 
 .contact-item {
-	padding: 0.2rem 0.5rem;
+	padding: 0.2rem 0.563rem;
 }
 
 .contact form {
@@ -453,12 +453,12 @@ footer .copyright {
 	/*-------------------- Tablet Styles - General Styles --------------------*/
 
 	html {
-		font-size: 2rem;
+		font-size: 2.25rem;
 	}
 
 	.content-wrapper {
 		max-width: 100%;
-		margin: 80px 0;
+		margin: 80px 20px;
 	}
 
 	h1 {
@@ -471,7 +471,7 @@ footer .copyright {
 	}
 
 	h3 {
-		font-size: 1.4em;
+		font-size: 1.5em;
 	}
 
 	p{
@@ -539,7 +539,8 @@ footer .copyright {
 	/*------------------- Tablet Styles - Homepage - Projects Section -------------------*/
 
 	.projects {
-	margin: 120px 0 80px 0;
+	margin: 120px 20px 80px 20;
+	justify-content: center;
 	}
 
 	.projects h2 {
@@ -635,6 +636,14 @@ footer .copyright {
 		text-align: center;
 	}
 
+	.reverse-wrapper {
+		display: flex;
+		justify-content: center;
+		flex-flow:row-reverse;
+		width: 100%;
+		margin: 20px 0;
+	}
+	
 	.contact form {
 		display: flex;
 		justify-content: space-around;
@@ -655,15 +664,24 @@ footer .copyright {
 		color: #162a41;
 	}
 
+	.social-links {
+		display: flex;
+		justify-content: center;
+		flex-flow: wrap row;
+		width: 50%;
+		margin: 20px 0;
+
+	}
+
 	.contact h3 {
 		width: 100%;
 		text-align: center;
 	}
 
 	.contact i {
-		font-size: 6rem;
+		font-size: 4rem;
 		justify-content: space-evenly;
-		padding: 2rem;
+		padding: 1rem;
 		color: #67c5de;
 	}
 
