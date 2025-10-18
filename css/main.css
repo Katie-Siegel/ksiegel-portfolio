@@ -348,7 +348,7 @@ footer .copyright {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	flex-wrap: row wrap;
+	flex-wrap: wrap;
 	padding: 0;
 	border-radius: 50%;
 	width: 80%;
@@ -513,7 +513,7 @@ footer .copyright {
 		display: flex;
 		justify-content: space-around;
 		margin: 0;
-		padding 0;
+		padding: 0;
 	}
 
 	.header-divider {
@@ -550,7 +550,7 @@ footer .copyright {
 	/*------------------- Tablet Styles - Homepage - Projects Section -------------------*/
 
 	.projects {
-	margin: 120px 20px 80px 20;
+	margin: 120px 20px 80px 20px;
 	justify-content: center;
 	}
 
@@ -659,7 +659,7 @@ footer .copyright {
 		display: flex;
 		justify-content: space-around;
 		align-items: center;
-		flex-wrap: row wrap;
+		flex-wrap: wrap;
 		padding: 0;
 		border-radius: 50%;
 		width: 70%;
@@ -766,7 +766,7 @@ footer .copyright {
 		display: flex;
 		justify-content: right;
 		margin: 0;
-		padding 0;
+		padding: 0;
 	}
 
 	li {
