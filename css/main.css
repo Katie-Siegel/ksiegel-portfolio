@@ -169,7 +169,7 @@ img {
 header {
 	display: flex;
 	justify-content: center;
-	margin-top: 0;
+	margin: 0;
 
 }
 
@@ -227,10 +227,14 @@ footer .copyright {
 .hero-area {
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	text-align: center;
 }
 
 .hero-image {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	background: url('../img/hero-image-world-desaturated-dark.jpg')
 		#162a41;
 	background-size: cover;
@@ -453,12 +457,12 @@ footer .copyright {
 	/*-------------------- Tablet Styles - General Styles --------------------*/
 
 	html {
-		font-size: 2.25rem;
+		font-size: 2rem;
 	}
 
 	.content-wrapper {
 		max-width: 100%;
-		margin: 80px 20px;
+		margin: 80px 0;
 	}
 
 	h1 {
@@ -471,7 +475,7 @@ footer .copyright {
 	}
 
 	h3 {
-		font-size: 1.5em;
+		font-size: 1.75em;
 	}
 
 	p{
@@ -524,16 +528,13 @@ footer .copyright {
 
 	/*------------------- Tablet Styles - Homepage - Hero Section -------------------*/
 
-
 	.hero-area p {
 		width: 70%;
 	}
 
 
 	.hero-image {
-		width: 100%;
-		max-height: fit-content;
-		margin: 0 0 80px 0;
+		margin: 0;
 	}
 
 	/*------------------- Tablet Styles - Homepage - Projects Section -------------------*/
@@ -643,7 +644,7 @@ footer .copyright {
 		width: 100%;
 		margin: 20px 0;
 	}
-	
+
 	.contact form {
 		display: flex;
 		justify-content: space-around;
@@ -657,11 +658,25 @@ footer .copyright {
 
 	.form-item {
 		margin: 0.5rem;
-		padding: 1rem;
+		padding: 2rem;
 		width: 100%;
 		border: 0.3rem solid #67c5de;
 		border-radius: 0.5rem;
 		color: #162a41;
+	}
+
+
+	#full-name, #email-address {
+		width: 40%;
+		padding: .3rem 0;
+		margin: .2rem 0;
+	}
+
+
+
+	.btn {
+		width: 50%;
+		padding: .25rem;
 	}
 
 	.social-links {
@@ -699,21 +714,24 @@ footer .copyright {
 	}
 
 	.content-wrapper {
-		max-width: 100%;
+		width: 100%;
 		margin: 80px 0;
 	}
 
 	h1 {
 		font-size: 3em;
 		padding-bottom: 40px;
+		width: 100%;
 	}
 
 	h2 {
 		font-size: 2.25em;
+		width: 100%;
 	}
 
 	h3 {
 		font-size: 1.4em;
+		width: 100%;
 	}
 
 	p{
@@ -724,24 +742,25 @@ footer .copyright {
 
 	header {
 		display: flex;
-		justify-content: center;
+		justify-content: right;
+		align-items: center;
 		padding: 0;
 	}
 
-	header .content-wrapper {
-		align-items: flex-end;
-	}
-
 	header nav {
-		width: 70%;
+		width: 30%;
 		margin: 80px 0;
 	}
 
 	header nav ul {
 		display: flex;
-		justify-content: space-around;
+		justify-content: right;
 		margin: 0;
 		padding 0;
+	}
+
+	li {
+		padding: 0 .75rem;
 	}
 
 	.header-divider {
@@ -757,7 +776,7 @@ footer .copyright {
 		justify-content: center;
 		align-items: center;
 		font-size: 1.5em;
-		margin-bottom: 80px;
+		margin-bottom: 140px;
 	}
 
 	footer .copyright {
@@ -775,13 +794,13 @@ footer .copyright {
 	.hero-image {
 		width: 100%;
 		max-height: fit-content;
-		margin: 0 0 80px 0;
+		margin: 0 0 140px 0;
 	}
 
 	/*------------------- Desktop Styles - Homepage - Projects Section -------------------*/
 
 	.projects {
-	margin: 120px 0 80px 0;
+	margin: 140px 0 40px 0;
 	}
 
 	.projects h2 {
@@ -795,13 +814,13 @@ footer .copyright {
 	}
 
 	.portfolio-item {
-		width: 41%;
-		margin: 0 .75rem;
+		width: 28%;
+		margin: 0 1.1rem;
 	}
 
 	.portfolio-item img {
 		width: 100%;
-		margin: 0 0 0 0;
+		margin: 0;
 	}
 
 	.project-description {
@@ -820,7 +839,7 @@ footer .copyright {
 	/*------------------- Desktop Styles - Homepage - Skills Section -------------------*/
 
 	.skills {
-		margin: 0 0 120px 0;
+		margin: 80px 0 140px 0;
 	}
 
 	.skills h2 {
@@ -830,13 +849,13 @@ footer .copyright {
 	.skills-icons {
 		display: flex;
 		flex-flow: row wrap;
-		justify-content: space-evenly;
+		justify-content: space-around;
 		margin: 40px 0;
 	}
 
 	.skills i {
-		font-size: 4.5rem;
-		padding: 1.5rem;
+		font-size: 3.75rem;
+		padding: .8rem;
 		color: #67c5de;
 	}
 
@@ -847,7 +866,8 @@ footer .copyright {
 /*------------------- Desktop Styles - Homepage - About Me Section -------------------*/
 
 	.about {
-		margin: 120px 0;
+		margin: 140px 0 160px 0;
+		justify-content: space-around;
 	}
 
 	.about h2 {
@@ -855,14 +875,19 @@ footer .copyright {
 		margin-bottom: 40px;
 	}
 
+	.about img {
+		width: 30%;
+		height: 30%;
+	}
+
 	.about p {
-		width: 80%;
-		margin: 40px 0 0 0;
+		width:55%;
+		margin: 0;
 	}
 
 /*------------------- Desktop Styles - Homepage - Contact Section -------------------*/
 	.contact {
-		margin: 120px 0 80px 0;
+		margin: 160px 0 40px 0;
 	}
 
 	.contact h2 {
@@ -877,35 +902,20 @@ footer .copyright {
 		text-align: center;
 	}
 
-	.contact form {
-		display: flex;
-		justify-content: space-around;
-		align-items: center;
-		flex-wrap: row wrap;
-		padding: 0;
-		border-radius: 50%;
-		width: 70%;
-		margin: 40px;
-	}
+	
 
-	.form-item {
-		margin: 0.5rem;
-		padding: 1rem;
-		width: 100%;
-		border: 0.3rem solid #67c5de;
-		border-radius: 0.5rem;
-		color: #162a41;
-	}
+
 
 	.contact h3 {
 		width: 100%;
 		text-align: center;
+		margin: 40px;
 	}
 
 	.contact i {
 		font-size: 6rem;
 		justify-content: space-evenly;
-		padding: 2rem;
+		padding: 0 2rem;
 		color: #67c5de;
 	}
 
