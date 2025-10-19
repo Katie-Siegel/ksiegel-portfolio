@@ -143,21 +143,12 @@ h3 {
 	margin: 0;
 }
 
-span .label-text {
-	font-family: 'Poppins', sans-serif;
-	font-size: 0.875rem;
-	font-weight: bold;
-	color: #c65098;
-	margin: 0;
-
-}
-
 p {
 	font-family: Noto Sans;
 	font-size: 0.875rem;
 }
 
-span .p-text {
+span {
 	color: #c65098;
 }
 
