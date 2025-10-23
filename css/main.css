@@ -589,7 +589,7 @@ button:hover {
 		align-items: stretch;
 		align-content:flex-start;
 		width: 43%;
-		margin: 0 .75rem;
+		margin: 0 27px 80px;
 	}
 
 	.portfolio-item img {
@@ -838,7 +838,7 @@ button:hover {
 
 	.projects h2 {
 	width: 100%;
-	margin-bottom: 80px;
+	margin-bottom: 40px;
 	}
 
 	.projects h3 {
@@ -848,7 +848,7 @@ button:hover {
 
 	.portfolio-item {
 		width: 28%;
-		margin: 0 1.1rem;
+		margin: 80px 1.1rem;
 	}
 
 	.portfolio-item img {
