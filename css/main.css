@@ -86,6 +86,7 @@ textarea {
 
 /*-------------------- Mobile Styles - General Styles --------------------*/
 
+
 html {
 	font-size: 1.125rem;
 	background-color: #162a41;
@@ -501,7 +502,7 @@ button:hover {
 	}
 
 	h3 {
-		font-size: 1.75em;
+		font-size: 1.25rem;
 	}
 
 	p{
@@ -576,23 +577,29 @@ button:hover {
 	}
 
 	.projects h3 {
+		width: 100%;
 		text-align: center;
 		margin: .2rem 0 40px 0;
+		font-size: 1.2rem;
 	}
 
 	.portfolio-item {
-		width: 41%;
+		display: flex;
+		justify-content: stretch;
+		align-items: stretch;
+		align-content:flex-start;
+		width: 43%;
 		margin: 0 .75rem;
 	}
 
 	.portfolio-item img {
-		width: 100%;
-		margin: 0 0 0 0;
+		width:100%
 	}
 
 	.project-description {
 		margin: 40px 0 0 0;
-		/* height: 18rem; */
+	
+
 	}
 
 	.project-skills {
