@@ -1,7 +1,9 @@
 // Updates Copyright Footer
-//Connects footer to code
+
 const year = document.querySelector(
 	'#current-year'
 );
-//Pulls new year to update footer
+//Connects footer to code
+
 year.innerHTML = new Date().getFullYear();
+//Pulls new year to update footer
