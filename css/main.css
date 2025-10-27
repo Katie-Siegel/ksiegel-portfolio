@@ -583,29 +583,26 @@ button:hover {
 	}
 
 	.portfolio-item {
-		display: flex;
+		display: flex !important;
+		flex-wrap: wrap;
 		justify-content: center;
 		align-items:stretch;
 		align-content: space-evenly;
 		width: 43%;
-		margin: 0 27px 80px;
+		margin: 0 0 80px 0;
+		padding: 0 25px;
 	}
 
 	.portfolio-item img {
 		width: 100%;
 		margin: 0;
-		display: flex;
-		justify-content: center;
-		align-items: flex-start;
 	}
 
 	.project-description {
 		margin: 40px 0 0 0;
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-		align-items: flex-start;
-		align-content: center;
+		display: flex !important;
+		flex-grow: 1;
+		min-height: 40%;
 
 	}
 
@@ -854,13 +851,14 @@ button:hover {
 	}
 
 	.portfolio-item {
-		width: 28%;
+		width: 25%;
 		margin: 80px 1.1rem;
 	}
 
 	.portfolio-item img {
 		width: 100%;
 		margin: 0;
+		justify-self: center;
 	}
 
 	.project-description {
