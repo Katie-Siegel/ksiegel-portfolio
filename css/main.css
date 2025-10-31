@@ -18,7 +18,7 @@ body {
 ul,
 ol {
 	list-style-type: none;
-	font-size: 1rem;
+	font-size: 1em;
 	font-weight: bold;
 	color: #d1be9c;
 }
@@ -42,15 +42,15 @@ nav a:hover {
 
 h1 {
 	font-family: 'Poppins', sans-serif;
-	font-size: 2.25rem;
-	line-height: 2.25rem;
+	font-size: 2.25em;
+	line-height: 2.25em;
 	font-weight: 500;
 	margin: 1.7rem 0;
 }
 
 h2 {
 	font-family: 'Poppins', sans-serif;
-	font-size: 1.5rem;
+	font-size: 1.5em;
 	font-weight: 700;
 	margin: 0;
 	text-align: center;
@@ -58,14 +58,14 @@ h2 {
 
 h3 {
 	font-family: 'Poppins', sans-serif;
-	font-size: 1.25rem;
+	font-size: 1.25em;
 	font-weight: 300;
 	margin: 0;
 }
 
 p {
 	font-family: Noto Sans;
-	font-size: 0.875rem;
+	font-size: 0.875em;
 }
 
 span {
@@ -235,13 +235,14 @@ button:hover {
 }
 
 .skills i {
-	font-size: 4.1rem;
+	font-size: 4.1em;
 	padding: 1.5rem;
 	color: #67c5de;
 }
 
 .skills p {
 	text-align: center;
+	line-height: 1.4rem;
 	margin-top: 20px;
 	width: 90%;
 }
@@ -264,6 +265,7 @@ button:hover {
 
 .about p {
 	width: 90%;
+	line-height: 1.4em;
 }
 /*------------------- Mobile Styles - Homepage - Contact Section -------------------*/
 .contact {
@@ -277,6 +279,8 @@ button:hover {
 }
 
 .contact-item {
+	color: #d1be9c;
+	text-decoration: none;
 	text-align: center;
 	width: 80%;
 	padding: 0.2rem 0.563rem;
@@ -388,20 +392,21 @@ button:hover {
 	}
 
 	h1 {
-		font-size: 3rem;
+		font-size: 3em;
 		padding-bottom: 40px;
 	}
 
 	h2 {
-		font-size: 2.25rem;
+		font-size: 2.25em;
 	}
 
 	h3 {
-		font-size: 1.25rem;
+		font-size: 1.25em;
 	}
 
 	p{
-		font-size: 1rem;
+		font-size: 1em;
+		
 	}
 
 	/*-------------------- Tablet Styles - Base Header and Footer Styles --------------------*/
@@ -492,15 +497,18 @@ button:hover {
 
 	.project-description {
 		margin: 40px 0 0 0;
+		line-height: 1.4em;
 
 	}
 
 	.project-skills {
 		margin: 40px 0 20px 0;
+		line-height: 1.4em;
 	}
 
 	.project-tools {
 		margin: 0 0 80px 0;
+		line-height: 1.4em;
 	}
 
 	/*------------------- Tablet Styles - Homepage - Skills Section -------------------*/
@@ -515,19 +523,23 @@ button:hover {
 
 	.skills-icons {
 		display: flex;
+		justify-content: center;
+		align-items: center;
 		flex-flow: row wrap;
-		justify-content: space-evenly;
-		margin: 40px 0;
+		justify-content:space-evenly;
+		margin: 40px 80px;
 	}
 
 	.skills i {
-		font-size: 4.5rem;
+		font-size: 5.5rem;
 		padding: 1.5rem;
 		color: #67c5de;
 	}
 
 	.skills p {
 		margin: 30px 0 0 0;
+		font-size: 1.2rem;
+		line-height: 1.6rem;
 	}
 
 /*------------------- Table Styles - Homepage - About Me Section -------------------*/
@@ -573,7 +585,7 @@ button:hover {
 
 	.contact form {
 		display: flex;
-		justify-content: space-around;
+		justify-content: space-evenly;
 		align-items: center;
 		flex-wrap: wrap;
 		padding: 0;
@@ -594,20 +606,21 @@ button:hover {
 
 
 	#full-name, #email-address {
-		width: 40%;
-		padding: .3rem 0;
-		margin: .2rem 0;
+		width: 45%;
+		padding: .5rem 0;
+		margin: .3rem 0;
 	}
 
 
 	.btn {
 		width: 50%;
-		padding: .25rem;
+		padding: .5rem;
 	}
 
 	.social-links {
 		display: flex;
-		justify-content: center;
+		justify-content: space-around;
+		align-items: center;
 		flex-flow: wrap row;
 		width: 50%;
 		margin: 20px 0;
@@ -617,12 +630,16 @@ button:hover {
 	.contact h3 {
 		width: 100%;
 		text-align: center;
+		align-content: center;
+		justify-content: center;
+		margin: 20px 0;
+		font-size: 2em;
 	}
 
 	.contact i {
-		font-size: 4rem;
+		font-size: 5.5em;
 		justify-content: space-evenly;
-		padding: 1rem;
+		padding: 1.25rem;
 		color: #67c5de;
 	}
 
