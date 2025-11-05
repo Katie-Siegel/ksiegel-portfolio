@@ -66,14 +66,14 @@ h3 {
 
 h4 {
 	font-family: 'Poppins', sans-serif;
-	font-size: 0.875em;
+	font-size: 1rem;
 	line-height: 1.13rem;
 }
 
 p {
 	font-family: 'Noto Sans';
-	font-size: 0.875em;
-	line-height: 1,13rem;
+	font-size: 1rem;
+	line-height: 1rem;
 }
 
 span {
@@ -98,7 +98,7 @@ header .content-wrapper {
 	align-items: center;
 	flex-flow: row wrap;
 	margin: 10px 0 0 0;
-	padding: 15px 0;
+	padding: 0;
 }
 
 nav .content-wrapper{
@@ -111,15 +111,16 @@ nav .content-wrapper{
 }
 
 header nav {
-width: 80%;
+width: 100%;
 }
 
 header nav ul {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	width: 90%;
+	width: 100%;
 	padding: 0;
+	white-space: nowrap;
 }
 
 .header-divider {
@@ -173,10 +174,14 @@ footer .copyright {
 	padding: 0 30px;
 }
 
+.hero-area h3 {
+	padding: 0 0 30px 0;
+}
+
 /*------------------- Mobile Styles - Homepage - Projects Section -------------------*/
 
 .projects {
-	margin: 80px 0 20px 0;
+	margin: 50px 0 20px 0;
 	width: 100%;
 
 }
@@ -189,19 +194,21 @@ footer .copyright {
 	display: flex;
 	justify-content: space-around;
 	align-items:stretch;
-	flex-flow: row wrap;
-	margin: 0 0 20px 0;
+	flex-wrap: wrap;
+	margin: 0;
+	padding: 0;
+	gap: 40px;
 	/* columns: auto 8rem; */
 
 }
 
 .portfolio-item {
-	width: 100%;
+	width: 80%;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: flex-start;
 	flex-flow: row wrap;
-	margin: 0 40px;
+	margin: 0;
 }
 
 .portfolio-item img {
@@ -217,7 +224,8 @@ footer .copyright {
 
 .project-skills,
 .project-tools {
-	margin: 0 0 0.8rem 0;
+	width: 100%;
+	margin: 0 0 1rem 0;
 }
 
 .button-style {
@@ -234,7 +242,6 @@ footer .copyright {
 	align-items: center;
 }
 
-
 button:hover {
 	border: 4px solid #d16ea8;
 }
@@ -243,6 +250,10 @@ button:hover {
 
 .skills {
 	margin: 0 0 80px 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: stretch;
 }
 
 .skills h2 {
@@ -251,22 +262,25 @@ button:hover {
 }
 
 .skills-icons {
+	width: 90%;
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: space-around;
-	margin: 0 40px;
+	justify-content: space-evenly;
+	align-items: stretch;
+	margin: 0;
 }
 
 .skills i {
-	font-size: 4.1em;
-	padding: 1.5rem;
+	font-size: 3.5rem;
+	padding: 1.25rem;
 	color: #67c5de;
 }
 
 .skills p {
+	width: 90%;
 	text-align: center;
 	line-height: 1.4rem;
-	margin: 20px 30px 0;
+	margin-top: 20px;
 }
 
 /*------------------- Mobile Styles - Homepage - About Me Section -------------------*/
@@ -295,7 +309,7 @@ button:hover {
 
 .about p {
 	width: 80%;
-	margin: 0 40px;
+	margin: 0;
 	line-height: 1.4em;
 }
 
@@ -367,58 +381,6 @@ button:hover {
 	color: #67c5de;
 }
 
-/* ==========================================================================
-   Helper classes
-   ========================================================================== */
-
-/*
- * Hide visually and from screen readers
- */
-
-.hidden,
-[hidden] {
-	display: none !important;
-}
-
-.visually-hidden {
-	border: 0;
-	clip: rect(0, 0, 0, 0);
-	height: 1px;
-	margin: -1px;
-	overflow: hidden;
-	padding: 0;
-	position: absolute;
-	white-space: nowrap;
-	width: 1px;
-	/* 1 */
-}
-
-
-.visually-hidden.focusable:active,
-.visually-hidden.focusable:focus {
-	clip: auto;
-	height: auto;
-	margin: 0;
-	overflow: visible;
-	position: static;
-	white-space: inherit;
-	width: auto;
-}
-
-
-.invisible {
-	visibility: hidden;
-}
-
-.clearfix::before,
-.clearfix::after {
-	content: '';
-	display: table;
-}
-
-.clearfix::after {
-	clear: both;
-}
 
 /* ==========================================================================
 								MEDIA QUERIES
@@ -430,7 +392,7 @@ button:hover {
 	/*-------------------- Tablet Styles - General Styles --------------------*/
 
 	html {
-		font-size: 20px;
+		font-size: 16px;
 	}
 
 	.content-wrapper {
@@ -504,7 +466,7 @@ button:hover {
 	/*------------------- Tablet Styles - Homepage - Hero Section -------------------*/
 
 	.hero-area h4 {
-		margin-top: 40px;
+		margin: 40px 0 20px 0;
 		width: 70%;
 	}
 
@@ -528,6 +490,7 @@ button:hover {
 		margin: 0 20px;
 		display: flex;
 		flex-flow: row wrap;
+		justify-content: space-around;
 		align-items: stretch;
 		flex: 1;
 		padding: 1rem;
@@ -562,7 +525,7 @@ button:hover {
 	}
 
 	.portfolio-item img {
-		/* width: 100%; */
+		width: 100%;
 		/* height: 100%; */
 		/* padding: 0 20px; */
 		margin: 0;
@@ -732,7 +695,7 @@ button:hover {
 	/*-------------------- Desktop Styles - General Styles --------------------*/
 
 	html {
-		font-size: 28px;
+		font-size: 18px;
 	}
 
 	.content-wrapper {
@@ -808,14 +771,18 @@ button:hover {
 	/*------------------- Desktop Styles - Homepage - Hero Section -------------------*/
 
 
-	.hero-area p {
-		width: 70%;
+	.hero-area h4 {
+		width: 30%;
+	}
+
+	.hero-area h3 {
+		padding-bottom: 40px;
 	}
 
 
 	.hero-image {
 		width: 100%;
-		max-height: fit-content;
+		height: 100%;
 		margin: 0 0 140px 0;
 	}
 
@@ -827,42 +794,59 @@ button:hover {
 
 	.projects h2 {
 	width: 100%;
-	margin-bottom: 40px;
+	margin-bottom: 80px;
+	}
+
+	.projects-container {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		align-items: stretch;
+		justify-content: center;
+		gap: 80px 40px;
 	}
 
 	.projects h3 {
+		flex: 1 1 100%;
 		text-align: center;
-		margin: .2rem 0 40px 0;
-		align-items: flex-start;
+		/* margin: .2rem 0 40px 0; */
+		align-items: stretch;
 		justify-content: center;
 	}
 
 	.portfolio-item {
-		width: 30%;
-		margin: 80px 1.1rem;
-		justify-content: stretch;
+		/* flex: 1; */
+		width: 25%;
+		/* margin: 60px 20px; */
+		justify-content: space-between;
+		align-items: stretch;
 	}
 
 	.portfolio-item img {
 		width: 100%;
-		padding: 0 20px;
-		justify-self: stretch;
+		/* padding: 15px; */
+		justify-self: center;
+		align-items: center;
+		flex: 1 1 100%;
 	}
 
 	.project-description {
-		margin: 40px 0 0 0;
+		/* margin: 40px 0 0 0; */
+		flex: 1 1 100%;
+		/* align-items: start;
+		justify-content:center; */
 	}
 
 	.project-skills {
-		margin: 40px 0 20px 0;
+		/* margin: 40px 0 20px 0; */
+		flex: 1 1 100%;
 	}
 
 	.project-tools {
-		/* display: flex; */
-		margin: 0 0 80px 0;
-		justify-self:flex-start;
-		align-items: stretch;
-		text-align: left;
+		width: 100%;
+		/* margin: 10px 0 80px 0; */
+		flex: 1 1 100%;
 	}
 
 	/*------------------- Desktop Styles - Homepage - Skills Section -------------------*/
@@ -954,7 +938,7 @@ button:hover {
 	.contact h3 {
 		width: 100%;
 		text-align: center;
-		margin: 40px;
+		margin: 40px 0;
 	}
 
 	.contact i {
