@@ -499,10 +499,10 @@ button:hover {
 
 	.projects-container {
 		width: 90%;
-		gap: 100px 80px;
+		gap: 90px 50px;
 		display: flex;
 		flex-flow: wrap;
-		justify-content: stretch;
+		justify-content: center;
 		align-items: stretch;
 		/* justify-content: stretch;
 		align-items:stretch; */
@@ -521,7 +521,7 @@ button:hover {
 	}
 
 	.portfolio-item {
-		gap: 40px 20px;
+		gap: 20px;
 		width: 44%;
 		/* height: 100%; */
 		/* margin: 0 0 80px 0;
@@ -529,8 +529,8 @@ button:hover {
 		display: flex;
     	flex-direction: column;
 		justify-content: stretch;
-		align-items: stretch;
-		flex: 1 1 44%;
+		align-items: center;
+		/* flex: 1 1 44%; */
 	
 	}
 
@@ -552,7 +552,7 @@ button:hover {
 
 	.project-description {
 		/* height: 100%; */
-		margin: 40px 0 0 0;
+		margin: 10px 0;
 		line-height: 1.4em;
 		flex: 1;
 
@@ -560,14 +560,20 @@ button:hover {
 
 	.project-skills {
 		/* height: 100%; */
-		margin: 40px 0 20px 0;
+		margin: 10px 0 20px 0;
 		line-height: 1.4em;
 	}
 
 	.project-tools {
 		/* height: 100%; */
-		margin: 0 0 80px 0;
+		margin: 0 0 40px 0;
 		line-height: 1.4em;
+	}
+
+	.button-style {
+		width:80%;
+		align-self: center;
+		margin: 0;
 	}
 
 	/*------------------- Tablet Styles - Homepage - Skills Section -------------------*/
