@@ -339,7 +339,6 @@ button:hover {
 	padding: 0.2rem 0.563rem;
 }
 
-
 .form {
 	display: flex;
 	justify-content:space-around;
@@ -348,6 +347,14 @@ button:hover {
 	padding: 0;
 	border-radius: 50%;
 	margin: 30px 30px 0;
+}
+
+.form h4 {
+	width: 100%;
+	padding: .5rem 1rem;
+	margin: 0;
+	text-align: left;
+	justify-self: left;
 }
 
 .form-item, .btn {
