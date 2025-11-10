@@ -595,9 +595,8 @@ button:hover {
 	}
 
 	.skills i {
-		font-size: 5.5rem;
-		padding: 2rem;
-		color: #67c5de;
+		font-size: 4rem;
+		padding: 1.5rem;
 	}
 
 	.skills p {
@@ -658,6 +657,33 @@ button:hover {
 		margin: 60px;
 	}
 
+	.form h4{
+		width: 46%;
+		padding: 0;
+		margin: .5rem;
+	}
+
+	h4.label-one {
+		order: 1;
+	}
+
+	h4.label-two {
+		order: 2;
+	}
+
+	#full-name {
+		order:3;
+	}
+
+	#email-address {
+		order: 4;
+	}
+
+	h4.label-three {
+		order: 5;
+		width: 100%;
+	}
+
 	.form-item {
 		margin: 0.5rem;
 		padding: 2rem;
@@ -669,19 +695,21 @@ button:hover {
 
 
 	#full-name, #email-address {
-		width: 44%;
+		width: 42%;
 		padding: 1rem 0.5rem;
 		margin: .3rem 10px;
 	}
 
 	#message {
-		padding: 5rem 0;
+		padding: 4rem 0;
+		order: 6;
 	}
 
 
 	.btn {
 		width: 50%;
 		padding: 1rem .5rem;
+		order: 7;
 	}
 
 	.social-links {
@@ -705,7 +733,7 @@ button:hover {
 
 	.contact i {
 		width: 40%;
-		font-size: 7rem;
+		font-size: 6rem;
 		justify-content: space-around;
 		padding: 2rem;
 		color: #67c5de;
