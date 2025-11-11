@@ -906,7 +906,7 @@ footer .copyright {
 /*------------------- Desktop Styles - Homepage - About Me Section -------------------*/
 
 	.about {
-		margin: 140px 40px 160px 40px;
+		margin: 140px 0 160px 0;
 		justify-content: space-around;
 	}
 
@@ -926,7 +926,7 @@ footer .copyright {
 
 /*------------------- Desktop Styles - Homepage - Contact Section -------------------*/
 	.contact {
-		margin: 160px 20px 40px 20px;
+		margin: 160px 0 40px 0;
 	}
 
 	.contact h2 {
