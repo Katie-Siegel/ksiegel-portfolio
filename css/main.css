@@ -143,8 +143,6 @@ footer .copyright {
 	margin: 20px 0px;
 }
 
-/*------------------- Mobile Styles - Homepage - Hero Section -------------------*/
-
 .hero-area {
 	width: 100%;
 	display: flex;
@@ -159,7 +157,6 @@ footer .copyright {
 	padding: 0 0 10px 0;
 }
 
-
 .hero-area h2 {
 	padding: 0 30px;
 }
@@ -171,8 +168,6 @@ footer .copyright {
 .hero-area h3 {
 	padding: 0 0 30px 0;
 }
-
-/*------------------- Mobile Styles - Homepage - Projects Section -------------------*/
 
 .projects {
 	margin: 50px 0 20px 0;
@@ -192,7 +187,6 @@ footer .copyright {
 	margin: 0;
 	padding: 0;
 	gap: 40px;
-	/* columns: auto 8rem; */
 
 }
 
@@ -241,8 +235,6 @@ footer .copyright {
 	border: 4px solid #f759a4;
 }
 
-/*------------------- Mobile Styles - Homepage - Skills Section -------------------*/
-
 .skills {
 	margin: 0 0 80px 0;
 	display: flex;
@@ -278,8 +270,6 @@ footer .copyright {
 	margin-top: 20px;
 }
 
-/*------------------- Mobile Styles - Homepage - About Me Section -------------------*/
-
 .about {
 	margin: 80px 0;
 	width: 100%;
@@ -313,7 +303,6 @@ footer .copyright {
 	line-height: 1.4em;
 }
 
-/*------------------- Mobile Styles - Homepage - Contact Section -------------------*/
 .contact {
 	margin: 80px 0 60px 0;
 	display: flex;
@@ -400,16 +389,7 @@ footer .copyright {
 	color: #67c5de;
 }
 
-
-/* ==========================================================================
-								MEDIA QUERIES
-   ========================================================================== */
-
 @media only screen and (min-width: 768px) {
-	/* Tablet Styles Here */
-
-	/*-------------------- Tablet Styles - General Styles --------------------*/
-
 	html {
 		font-size: 18px;
 	}
@@ -440,8 +420,6 @@ footer .copyright {
 		font-size: 1em;
 		
 	}
-
-	/*-------------------- Tablet Styles - Base Header and Footer Styles --------------------*/
 
 	header {
 		display: flex;
@@ -486,14 +464,10 @@ footer .copyright {
 		width: 100%;
 	}
 
-	/*------------------- Tablet Styles - Homepage - Hero Section -------------------*/
-
 	.hero-area h4 {
 		margin: 40px 0 20px 0;
 		width: 80%;
 	}
-
-	/*------------------- Tablet Styles - Homepage - Projects Section -------------------*/
 
 	.projects {
 	margin: 120px 0 80px 0;
@@ -550,13 +524,11 @@ footer .copyright {
 	}
 
 	.project-skills {
-		/* height: 100%; */
 		margin: 10px 0 20px 0;
 		line-height: 1.4em;
 	}
 
 	.project-tools {
-		/* height: 100%; */
 		margin: 0 0 40px 0;
 		line-height: 1.4em;
 	}
@@ -566,8 +538,6 @@ footer .copyright {
 		align-self: center;
 		margin: 0;
 	}
-
-	/*------------------- Tablet Styles - Homepage - Skills Section -------------------*/
 
 	.skills {
 		margin: 0 0 120px 0;
@@ -596,12 +566,9 @@ footer .copyright {
 		line-height: 1.6rem;
 	}
 
-/*------------------- Table Styles - Homepage - About Me Section -------------------*/
-
 	.about {
 		margin: 120px 0;
 	}
-
 
 	.about img {
 		width: 40%;
@@ -617,7 +584,6 @@ footer .copyright {
 		margin: 40px 0 0 0;
 	}
 
-/*------------------- Tablet Styles - Homepage - Contact Section -------------------*/
 	.contact {
 		margin: 120px 0 80px 0;
 	}
@@ -690,7 +656,6 @@ footer .copyright {
 		font-size: 1rem;
 	}
 
-
 	#full-name, #email-address {
 		width: 43%;
 		padding: 1rem 0.5rem;
@@ -701,7 +666,6 @@ footer .copyright {
 		padding: 4rem 0;
 		order: 6;
 	}
-
 
 	.btn {
 		width: 50%;
@@ -723,7 +687,6 @@ footer .copyright {
 		flex-flow: wrap row;
 		width: 100%;
 		margin: 20px 0;
-
 	}
 
 	.contact h3 {
@@ -741,16 +704,9 @@ footer .copyright {
 		padding: 2rem;
 		color: #67c5de;
 	}
-
-
 }
 
-
 @media only screen and (min-width: 1200px) {
-	/* Desktop Styles Here */
-
-	/*-------------------- Desktop Styles - General Styles --------------------*/
-
 	html {
 		font-size: 18px;
 	}
@@ -779,8 +735,6 @@ footer .copyright {
 	p{
 		font-size: 1rem;
 	}
-
-	/*-------------------- Desktop Styles - Base Header and Footer Styles --------------------*/
 
 	header {
 		display: flex;
@@ -825,9 +779,6 @@ footer .copyright {
 		width: 100%;
 	}
 
-	/*------------------- Desktop Styles - Homepage - Hero Section -------------------*/
-
-
 	.hero-area h4 {
 		width: 60%;
 	}
@@ -836,14 +787,11 @@ footer .copyright {
 		padding: 20px 0 40px;
 	}
 
-
 	.hero-image {
 		width: 100%;
 		height: 100%;
 		margin: 0 0 140px 0;
 	}
-
-	/*------------------- Desktop Styles - Homepage - Projects Section -------------------*/
 
 	.projects {
 	margin: 140px 0 40px 0;
@@ -868,9 +816,6 @@ footer .copyright {
 		margin: 0;
 		flex-grow: 1;
 	}
-
-
-	/*------------------- Desktop Styles - Homepage - Skills Section -------------------*/
 
 	.skills {
 		margin: 140px 0;
@@ -897,8 +842,6 @@ footer .copyright {
 		margin: 30px 0 0 0;
 	}
 
-/*------------------- Desktop Styles - Homepage - About Me Section -------------------*/
-
 	.about {
 		margin: 140px 0 160px 0;
 		justify-content: space-around;
@@ -918,7 +861,6 @@ footer .copyright {
 		margin: 0;
 	}
 
-/*------------------- Desktop Styles - Homepage - Contact Section -------------------*/
 	.contact {
 		margin: 160px 0 40px 0;
 	}
@@ -960,7 +902,6 @@ footer .copyright {
 		padding: 4rem 1rem;
 	}
 
-
 	.btn {
 		justify-self: center;
 		width: 50%;
@@ -994,13 +935,7 @@ footer .copyright {
 		padding: 2rem;
 		color: #67c5de;
 	}
-
-
 }
-
-/* ==========================================================================
-   Print styles.
-   ========================================================================== */
 
 @media print {
 	*,
@@ -1008,7 +943,6 @@ footer .copyright {
 	*::after {
 		background: #fff !important;
 		color: #000 !important;
-		/* Black prints faster */
 		box-shadow: none !important;
 		text-shadow: none !important;
 	}
