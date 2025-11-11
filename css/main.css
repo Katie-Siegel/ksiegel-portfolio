@@ -382,7 +382,7 @@ button:hover {
 }
 
 .contact i {
-	font-size: 7rem;
+	font-size: 5rem;
 	justify-content: space-evenly;
 	padding: 30px;
 	color: #67c5de;
@@ -399,7 +399,7 @@ button:hover {
 	/*-------------------- Tablet Styles - General Styles --------------------*/
 
 	html {
-		font-size: 28px;
+		font-size: 18px;
 	}
 
 	.content-wrapper {
@@ -478,7 +478,7 @@ button:hover {
 
 	.hero-area h4 {
 		margin: 40px 0 20px 0;
-		width: 70%;
+		width: 80%;
 	}
 
 	/*------------------- Tablet Styles - Homepage - Projects Section -------------------*/
@@ -574,8 +574,8 @@ button:hover {
 	}
 
 	.skills i {
-		font-size: 4rem;
-		padding: 1.5rem;
+		font-size: 5rem;
+		padding: 2rem;
 	}
 
 	.skills p {
@@ -588,6 +588,11 @@ button:hover {
 
 	.about {
 		margin: 120px 0;
+	}
+
+
+	.about img {
+		width: 40%;
 	}
 
 	.about h2 {
@@ -628,11 +633,12 @@ button:hover {
 
 	.contact form {
 		display: flex;
-		justify-content: space-around;
+		justify-content: center;
 		align-items: center;
 		flex-flow: wrap;
+		gap: 10px 20px;
 		padding: 0;
-		width: 90%;
+		width: 80%;
 		margin: 60px;
 	}
 
@@ -674,9 +680,9 @@ button:hover {
 
 
 	#full-name, #email-address {
-		width: 42%;
+		width: 43%;
 		padding: 1rem 0.5rem;
-		margin: .3rem 10px;
+		margin: .3rem .5rem;
 	}
 
 	#message {
@@ -691,18 +697,25 @@ button:hover {
 		order: 7;
 	}
 
+	.follow-me {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-flow: wrap;
+	}
+
 	.social-links {
 		display: flex;
-		justify-content: space-around;
+		justify-content: space-evenly;
 		align-items: center;
 		flex-flow: wrap row;
-		width: 90%;
+		width: 100%;
 		margin: 20px 0;
 
 	}
 
 	.contact h3 {
-		width: 90%;
+		width: 100%;
 		text-align: center;
 		align-content: center;
 		justify-content: center;
@@ -711,9 +724,8 @@ button:hover {
 	}
 
 	.contact i {
-		width: 40%;
-		font-size: 6rem;
-		justify-content: space-around;
+		font-size: 5rem;
+		justify-content: center;
 		padding: 2rem;
 		color: #67c5de;
 	}
@@ -809,7 +821,7 @@ button:hover {
 	}
 
 	.hero-area h3 {
-		padding-bottom: 40px;
+		padding: 20px 0 40px;
 	}
 
 
@@ -849,7 +861,7 @@ button:hover {
 	/*------------------- Desktop Styles - Homepage - Skills Section -------------------*/
 
 	.skills {
-		margin: 80px 0 140px 0;
+		margin: 140px 0;
 	}
 
 	.skills h2 {
@@ -886,8 +898,8 @@ button:hover {
 	}
 
 	.about img {
-		width: 20%;
-		height: 20%;
+		width: 15%;
+		height: 15%;
 	}
 
 	.about p {
@@ -917,6 +929,7 @@ button:hover {
 		width: 50%;
 		order: 3;
 		margin: 40px;
+		justify-content: space-around;
 	}
 
 	.contact-item {
@@ -926,17 +939,18 @@ button:hover {
 	}
 
 	#full-name, #email-address {
-		width: 42%;
+		width: 45%;
 		padding: 1rem .3rem;
 		margin: .4rem 0;
 	}
 
 	#message {
-		padding: 4rem 0;
+		padding: 4rem 1rem;
 	}
 
 
 	.btn {
+		justify-self: center;
 		width: 50%;
 		padding: 1rem .4rem;
 	}
@@ -956,13 +970,12 @@ button:hover {
 	.social-links {
 		width: 100%;
 		order: 2;
-		justify-content: center;
+		justify-content: space-evenly;
 	}
 
 	.contact i {
-		font-size: 6rem;
-		justify-content: center;
-		padding: 0 2rem;
+		font-size: 7rem;
+		padding: 2rem;
 		color: #67c5de;
 	}
 
