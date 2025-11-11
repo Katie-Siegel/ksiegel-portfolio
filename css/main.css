@@ -1,6 +1,3 @@
-/*-------------------- Mobile Styles - General Styles --------------------*/
-
-
 html {
 	font-size: 16px;
 	background-color: #162a41;
@@ -88,9 +85,6 @@ img {
 	width: 100%;
 	margin: 50px 0;
 }
-
-/*-------------------- Mobile Styles - Base Header and Footer Styles --------------------*/
-
 
 header .content-wrapper {
 	display: flex;
