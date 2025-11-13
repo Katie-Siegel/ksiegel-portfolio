@@ -912,7 +912,7 @@ footer .copyright {
 	.contact h3 {
 		width: 100%;
 		text-align: center;
-		margin:40px 0 0 0;
+		margin: 40px 0 0 0;
 		padding: 0;
 		order: 1;
 	}
@@ -920,19 +920,19 @@ footer .copyright {
 	.follow-me{
 		width: 40%;
 		justify-content: space-around;
-		align-items:center;
+		align-items: center;
 	}
 
 	.social-links {
 		width: 100%;
 		order: 2;
 		justify-content:center;
-		flex-flow: column wrap;
+		flex-flow: row wrap;
 	}
 
 	.contact i {
 		width: 100%;
-		font-size: 7rem;
+		font-size: 5rem;
 		padding: 2rem;
 		color: #67c5de;
 	}
