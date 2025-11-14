@@ -324,6 +324,12 @@ footer .copyright {
 	flex-flow: row wrap;
 }
 
+.form label::after {
+	content: " *";
+	color: red
+
+}
+
 .contact-item {
 	color: #d1be9c;
 	text-decoration: none;
@@ -896,6 +902,7 @@ footer .copyright {
 	.form .label-three {
 		width: 100%;
 		padding: 0 .5rem;
+		margin: .4rem 0;
 
 	}
 
