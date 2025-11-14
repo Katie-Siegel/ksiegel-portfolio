@@ -621,17 +621,17 @@ footer .copyright {
 		margin: 60px;
 	}
 
-	.form h4{
+	.form label{
 		width: 46%;
 		padding: 0;
 		margin: .5rem;
 	}
 
-	h4.label-one {
+	label.label-one {
 		order: 1;
 	}
 
-	h4.label-two {
+	label.label-two {
 		order: 2;
 	}
 
@@ -643,7 +643,7 @@ footer .copyright {
 		order: 4;
 	}
 
-	h4.label-three {
+	label.label-three {
 		order: 5;
 		width: 100%;
 	}
@@ -885,6 +885,18 @@ footer .copyright {
 		order: 3;
 		margin: 40px;
 		justify-content: space-around;
+	}
+
+	.form label {
+		width: 45%;
+		padding: .3rem;
+		margin: .4rem 0;
+	}
+
+	.form .label-three {
+		width: 100%;
+		padding: 0 .5rem;
+
 	}
 
 	.contact-item {
