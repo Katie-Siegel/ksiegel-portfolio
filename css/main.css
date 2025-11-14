@@ -919,6 +919,8 @@ footer .copyright {
 
 	.follow-me{
 		width: 40%;
+		display: flex;
+		flex-flow: wrap;
 		justify-content: space-around;
 		align-items: center;
 	}
