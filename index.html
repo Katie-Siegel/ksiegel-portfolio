@@ -326,20 +326,22 @@
 						class="form"
 						action="https://formspree.io/f/xrbyadwz"
 						method="POST">
-						<label for="name" class="label-one">First and Last Name</label>
+						<label for="full-name" class="label-one">First and Last Name</label>
 						<input
 							class="form-item"
 							type="text"
 							name="name"
+							aria-required="true"
 							aria-label="write your full name"
 							id="full-name"
 							placeholder="ex. Sarah Smith"
 							required="">
-						<label for="replyto" class="label-two">Email</label>
+						<label for="email-address" class="label-two">Email</label>
 						<input
 							class="form-item"
 							type="text"
 							name="replyto"
+							aria-required="true"
 							aria-label="your email address"
 							id="email-address"
 							placeholder="ex. sarah.smith@email.com"
@@ -348,6 +350,7 @@
 						<textarea
 							class="form-item"
 							name="message"
+							aria-required="true"
 							aria-label="your message"
 							id="message"
 							placeholder="What's on your mind?"
