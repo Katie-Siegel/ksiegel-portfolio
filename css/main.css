@@ -583,7 +583,8 @@ footer .copyright {
 	}
 
 	.about img {
-		width: 40%;
+		width: 60%;
+		height: auto;
 	}
 
 	.about h2 {
@@ -593,7 +594,7 @@ footer .copyright {
 
 	.about p {
 		width: 80%;
-		margin: 40px 0 0 0;
+		margin: 40px 0;
 	}
 
 	.contact {
