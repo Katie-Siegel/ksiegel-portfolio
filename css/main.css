@@ -868,11 +868,18 @@ footer .copyright {
 
 	.about img {
 		width: 30%;
+		padding: 0;
+		margin: 1em;
 	}
 
 	.about p {
 		width: 55%;
-		margin: 0;
+		margin: 1.25em;
+	}
+
+	.about .resume-button {
+		width: 50%;
+		margin-top: 30px;
 	}
 
 	.contact {
