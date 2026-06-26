@@ -913,6 +913,21 @@ footer .copyright {
 		margin: 0;
 	}
 
+	label.label-one {
+		order: 1;
+	}
+
+	label.label-two {
+		order: 2;
+	}
+
+	#full-name {
+		order: 3;
+	}
+
+	#email-address {
+		order: 4;
+	}
 	.form .label-three {
 		width: 100%;
 		padding: 0 0.5rem;
