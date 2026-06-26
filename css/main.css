@@ -634,7 +634,7 @@ footer .copyright {
 	}
 
 	.form label {
-		width: 46%;
+		width: 100%;
 		padding: 0;
 		margin: 0 10px;
 	}
@@ -644,11 +644,11 @@ footer .copyright {
 	}
 
 	label.label-two {
-		order: 2;
+		order: 3;
 	}
 
 	#full-name {
-		order: 3;
+		order: 2;
 	}
 
 	#email-address {
@@ -671,7 +671,7 @@ footer .copyright {
 
 	#full-name,
 	#email-address {
-		width: 43%;
+		width: 100%;
 		padding: 1rem 0.5rem;
 		margin: 0.3rem 0.5rem;
 	}
